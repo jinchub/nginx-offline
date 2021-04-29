@@ -53,3 +53,11 @@ pcre版本: 8.44
 --with-pcre=/usr/local/nginx/src/pcre-8.44 \
 --with-openssl=/usr/local/nginx/src/openssl-1.1.1f \
 --with-zlib=/usr/local/nginx/src/zlib-1.2.11
+
+# 执行安装脚本
+解压压缩包
+tar xf nginx1.18-offline-install.tar.gz
+cd nginx1.18-offline-install
+
+执行安装脚本
+source offline_install.sh
