@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/OS-Centos-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Nginx-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=blue)
+
 # nginx1.18 离线安装包
 基于centos7 nginx1.18版本源码编译制作的离线安装包
 
@@ -69,3 +70,4 @@ cd nginx1.18-offline-install
 ```bash
 source offline_install.sh
 ```
+![](https://me.jinchuang.org/usr/uploads/2020/06/1267490524.png)
