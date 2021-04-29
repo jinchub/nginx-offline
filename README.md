@@ -58,9 +58,8 @@ pcre版本: 8.44
 ```
 ## 下载|安装
 ##### 下载压缩包
-```bash
-
-```
+百度网盘：链接：https://pan.baidu.com/s/1aV7zEB6VBHX5wjHWZZO0mA <br>
+提取码：0000 
 ##### 解压压缩包
 ```bash
 tar xf nginx1.18-offline-install.tar.gz
