@@ -2,15 +2,14 @@
 基于centos7 nginx1.18版本源码编译制作的离线安装包
 
 ## 版本说明
+```
 nginx版本 1.18
-
 openssl版本: 1.1.1f
-
 zlib版本: 1.2.11
-
 pcre版本: 8.44
-
+```
 ## Nginx 配置参数
+```bash
 ./configure \
 --prefix=/usr/local/nginx \
 --pid-path=/var/run/nginx.pid \
@@ -53,11 +52,14 @@ pcre版本: 8.44
 --with-pcre=/usr/local/nginx/src/pcre-8.44 \
 --with-openssl=/usr/local/nginx/src/openssl-1.1.1f \
 --with-zlib=/usr/local/nginx/src/zlib-1.2.11
-
+```
 # 执行安装脚本
 解压压缩包
+```bash
 tar xf nginx1.18-offline-install.tar.gz
 cd nginx1.18-offline-install
-
+```
 执行安装脚本
+```bash
 source offline_install.sh
+```
